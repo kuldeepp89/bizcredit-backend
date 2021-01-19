@@ -1,0 +1,44 @@
+{
+  "name": "biz-2-credit",
+  "version": "1.0.0",
+  "description": "Demo app",
+  "main": "app_server.js",
+  "scripts": {
+    "start": "pm2 app_server.js",
+    "test": "mocha"
+  },
+  "author": "Kuldeep Patel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "latest",
+    "child_process": "^1.0.2",
+    "compression": "latest",
+    "cookie-parser": "latest",
+    "dotenv": "^6.0.0",
+    "errorhandler": "latest",
+    "express": "latest",
+    "express-restify-mongoose": "latest",
+    "express-session": "latest",
+    "helmet": "^3.21.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "method-override": "latest",
+    "moment": "^2.10.3",
+    "mongoose": "latest",
+    "mongoose-rbac": "~0.1.0",
+    "mongoose-search-plugin": "^0.1.2",
+    "morgan": "latest",
+    "multer": "^0.1.0",
+    "q": "latest",
+    "serve-favicon": "latest",
+    "tracer": "^0.7.4"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "colors": "^1.1.2",
+    "faker": "^2.1.3",
+    "mocha": "latest",
+    "should": "latest",
+    "supertest": "latest"
+  }
+}
